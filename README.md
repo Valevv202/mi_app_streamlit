@@ -1,2 +1,7 @@
 # mi_app_streamlit
  Es un tablero interactivo utilizando Streamlit que integra distintos ejercicios sobre funciones en Python.
+ Este código crea una aplicación interactiva utilizando Streamlit, que permite a los usuarios gestionar productos de manera sencilla y eficiente. La aplicación ofrece una interfaz amigable donde los usuarios pueden:
+Agregar Productos: Los usuarios pueden ingresar el nombre del producto, la cantidad y el precio por unidad. Al hacer clic en el botón "Agregar producto", la información se valida para asegurarse de que el nombre no esté vacío. Si es válido, se calcula el total del producto y se almacena en una lista.
+Visualizar Productos: La aplicación permite a los usuarios ver todos los productos que han añadido en un formato tabular. Utiliza Pandas para manejar los datos y mostrarlos en una tabla bien estructurada, facilitando la visualización y comprensión de la información.
+Manejo del Estado: Se utiliza st.session_state para mantener el estado de la lista de productos entre interacciones. Esto significa que incluso si el usuario agrega varios productos o navega por diferentes secciones de la aplicación, la lista de productos permanece intacta y accesible.
+Esta combinación de funcionalidades proporciona a los usuarios una experiencia fluida y dinámica, permitiéndoles gestionar sus productos sin complicaciones. La aplicación es ideal para aquellos que desean un sistema simple para llevar un registro de sus artículos, ya sea para uso personal o en un entorno más amplio.
